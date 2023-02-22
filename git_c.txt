@@ -1,0 +1,23 @@
+git status
+git .gitignore
+git config global user.name email.name
+rm -rf .git
+git add .
+git --list
+git --log online
+git diff staged
+git rm f.txt
+git mv a.txt a_a.txt
+git rm --cached a.txt // makes untracked from tracked explicitly
+
+git log -p // what content changed
+git log --stat
+git log --pretty=short/oneline
+git log --since=2.days/2.weeks
+git log --pretty="%h -- %ae"
+
+git checkout -- a.txt
+git checkout -f // restores file name to .gitignore and restores data to given file name
+git remote add ori link
+git remote -v
+git push -u ori master
